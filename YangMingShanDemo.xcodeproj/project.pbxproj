@@ -60,6 +60,35 @@
 		519140DF1D05571A002B4C5B /* YMSPhotoPickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F2EEE81CEC4D5F006DFC4B /* YMSPhotoPickerAssets.xcassets */; };
 		51F2EEE91CEC4D5F006DFC4B /* YMSPhotoPickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F2EEE81CEC4D5F006DFC4B /* YMSPhotoPickerAssets.xcassets */; };
 		51FF32391D129D020029197B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FF32291D129D020029197B /* Assets.xcassets */; };
+		CC7DDD951DDC98B6005B50B0 /* YangMingShan.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7DDD931DDC98B6005B50B0 /* YangMingShan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC7DDD991DDC98E4005B50B0 /* YMSPhotoPickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F2EEE81CEC4D5F006DFC4B /* YMSPhotoPickerAssets.xcassets */; };
+		CC7DDD9A1DDC98E4005B50B0 /* UIViewController+YMSPhotoHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130733A1D1B8DC000C98705 /* UIViewController+YMSPhotoHelper.h */; };
+		CC7DDD9B1DDC98E4005B50B0 /* UIViewController+YMSPhotoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130733B1D1B8DC000C98705 /* UIViewController+YMSPhotoHelper.m */; };
+		CC7DDD9C1DDC98E4005B50B0 /* UIScrollView+YMSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130731B1D1B8D9000C98705 /* UIScrollView+YMSAdditions.h */; };
+		CC7DDD9D1DDC98E4005B50B0 /* UIScrollView+YMSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130731C1D1B8D9000C98705 /* UIScrollView+YMSAdditions.m */; };
+		CC7DDD9E1DDC98E4005B50B0 /* UITableViewCell+YMSConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130731D1D1B8D9000C98705 /* UITableViewCell+YMSConfig.h */; };
+		CC7DDD9F1DDC98E4005B50B0 /* UITableViewCell+YMSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130731E1D1B8D9000C98705 /* UITableViewCell+YMSConfig.m */; };
+		CC7DDDA01DDC98E4005B50B0 /* YMSPhotoPickerTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130733C1D1B8DC000C98705 /* YMSPhotoPickerTheme.h */; };
+		CC7DDDA11DDC98E4005B50B0 /* YMSPhotoPickerTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130733D1D1B8DC000C98705 /* YMSPhotoPickerTheme.m */; };
+		CC7DDDA21DDC98E4005B50B0 /* YMSPhotoPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130733E1D1B8DC000C98705 /* YMSPhotoPickerViewController.h */; };
+		CC7DDDA31DDC98E4005B50B0 /* YMSPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130733F1D1B8DC000C98705 /* YMSPhotoPickerViewController.m */; };
+		CC7DDDA41DDC98E4005B50B0 /* YMSPhotoPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513073401D1B8DC000C98705 /* YMSPhotoPickerViewController.xib */; };
+		CC7DDDA51DDC98E4005B50B0 /* YMSAlbumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130731F1D1B8D9000C98705 /* YMSAlbumCell.h */; };
+		CC7DDDA61DDC98E4005B50B0 /* YMSAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 513073201D1B8D9000C98705 /* YMSAlbumCell.m */; };
+		CC7DDDA71DDC98E4005B50B0 /* YMSAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513073211D1B8D9000C98705 /* YMSAlbumCell.xib */; };
+		CC7DDDA81DDC98E4005B50B0 /* YMSAlbumPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 513073221D1B8D9000C98705 /* YMSAlbumPickerViewController.h */; };
+		CC7DDDA91DDC98E4005B50B0 /* YMSAlbumPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513073231D1B8D9000C98705 /* YMSAlbumPickerViewController.m */; };
+		CC7DDDAA1DDC98E4005B50B0 /* YMSAlbumPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513073241D1B8D9000C98705 /* YMSAlbumPickerViewController.xib */; };
+		CC7DDDAB1DDC98E4005B50B0 /* YMSCameraCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 513073251D1B8D9000C98705 /* YMSCameraCell.h */; };
+		CC7DDDAC1DDC98E4005B50B0 /* YMSCameraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 513073261D1B8D9000C98705 /* YMSCameraCell.m */; };
+		CC7DDDAD1DDC98E4005B50B0 /* YMSCameraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513073271D1B8D9000C98705 /* YMSCameraCell.xib */; };
+		CC7DDDAE1DDC98E4005B50B0 /* YMSPhotoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 513073281D1B8D9000C98705 /* YMSPhotoCell.h */; };
+		CC7DDDAF1DDC98E4005B50B0 /* YMSPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 513073291D1B8D9000C98705 /* YMSPhotoCell.m */; };
+		CC7DDDB01DDC98E4005B50B0 /* YMSPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5130732A1D1B8D9000C98705 /* YMSPhotoCell.xib */; };
+		CC7DDDB11DDC98E4005B50B0 /* YMSSinglePhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130732B1D1B8D9000C98705 /* YMSSinglePhotoViewController.h */; };
+		CC7DDDB21DDC98E4005B50B0 /* YMSSinglePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130732C1D1B8D9000C98705 /* YMSSinglePhotoViewController.m */; };
+		CC7DDDB31DDC98E4005B50B0 /* YMSSinglePhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5130732D1D1B8D9000C98705 /* YMSSinglePhotoViewController.xib */; };
+		CC7DDDB41DDC98ED005B50B0 /* YangMingShan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7DDD911DDC98B6005B50B0 /* YangMingShan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +166,9 @@
 		51F2EEE81CEC4D5F006DFC4B /* YMSPhotoPickerAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YMSPhotoPickerAssets.xcassets; sourceTree = "<group>"; };
 		51FF32291D129D020029197B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51FF322B1D129D020029197B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC7DDD911DDC98B6005B50B0 /* YangMingShan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YangMingShan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7DDD931DDC98B6005B50B0 /* YangMingShan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YangMingShan.h; path = YangMingShan/YangMingShan.h; sourceTree = "<group>"; };
+		CC7DDD941DDC98B6005B50B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = YangMingShan/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +197,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7DDD8D1DDC98B6005B50B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7DDDB41DDC98ED005B50B0 /* YangMingShan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +281,7 @@
 				5171AD001CE9A49C00B72748 /* YangMingShanDemo.xctest */,
 				5171AD0B1CE9A49C00B72748 /* YangMingShanDemo.xctest */,
 				519140CD1D055615002B4C5B /* YangMingShanDemo.app */,
+				CC7DDD911DDC98B6005B50B0 /* YangMingShan.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +309,8 @@
 		5171AD1D1CE9B2DC00B72748 /* YangMingShan */ = {
 			isa = PBXGroup;
 			children = (
+				CC7DDD931DDC98B6005B50B0 /* YangMingShan.h */,
+				CC7DDD941DDC98B6005B50B0 /* Info.plist */,
 				5171AD1E1CE9B2F100B72748 /* YMSPhotoPicker */,
 			);
 			name = YangMingShan;
@@ -329,6 +372,27 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CC7DDD8E1DDC98B6005B50B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7DDD9E1DDC98E4005B50B0 /* UITableViewCell+YMSConfig.h in Headers */,
+				CC7DDDA01DDC98E4005B50B0 /* YMSPhotoPickerTheme.h in Headers */,
+				CC7DDDAB1DDC98E4005B50B0 /* YMSCameraCell.h in Headers */,
+				CC7DDDB11DDC98E4005B50B0 /* YMSSinglePhotoViewController.h in Headers */,
+				CC7DDDAE1DDC98E4005B50B0 /* YMSPhotoCell.h in Headers */,
+				CC7DDD9A1DDC98E4005B50B0 /* UIViewController+YMSPhotoHelper.h in Headers */,
+				CC7DDDA81DDC98E4005B50B0 /* YMSAlbumPickerViewController.h in Headers */,
+				CC7DDD951DDC98B6005B50B0 /* YangMingShan.h in Headers */,
+				CC7DDDA51DDC98E4005B50B0 /* YMSAlbumCell.h in Headers */,
+				CC7DDDA21DDC98E4005B50B0 /* YMSPhotoPickerViewController.h in Headers */,
+				CC7DDD9C1DDC98E4005B50B0 /* UIScrollView+YMSAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5171ACE61CE9A49B00B72748 /* YangMingShanDemo */ = {
@@ -401,6 +465,24 @@
 			productReference = 519140CD1D055615002B4C5B /* YangMingShanDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CC7DDD901DDC98B6005B50B0 /* YangMingShan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7DDD981DDC98B6005B50B0 /* Build configuration list for PBXNativeTarget "YangMingShan" */;
+			buildPhases = (
+				CC7DDD8C1DDC98B6005B50B0 /* Sources */,
+				CC7DDD8D1DDC98B6005B50B0 /* Frameworks */,
+				CC7DDD8E1DDC98B6005B50B0 /* Headers */,
+				CC7DDD8F1DDC98B6005B50B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YangMingShan;
+			productName = YangMingShan;
+			productReference = CC7DDD911DDC98B6005B50B0 /* YangMingShan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -428,6 +510,10 @@
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0800;
 					};
+					CC7DDD901DDC98B6005B50B0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 5171ACE21CE9A49B00B72748 /* Build configuration list for PBXProject "YangMingShanDemo" */;
@@ -445,6 +531,7 @@
 			targets = (
 				5171ACE61CE9A49B00B72748 /* YangMingShanDemo */,
 				519140CC1D055615002B4C5B /* YangMingShanDemo-Swift */,
+				CC7DDD901DDC98B6005B50B0 /* YangMingShan */,
 				5171ACFF1CE9A49C00B72748 /* YangMingShanDemoTests */,
 				5171AD0A1CE9A49C00B72748 /* YangMingShanDemoUITests */,
 			);
@@ -499,6 +586,20 @@
 				51687A221D335CE80071643B /* YMSPhotoPickerViewController.xib in Resources */,
 				513073101D13D46E00C98705 /* DemoImageViewCell.xib in Resources */,
 				51687A281D335D080071643B /* YMSAlbumCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7DDD8F1DDC98B6005B50B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7DDDAA1DDC98E4005B50B0 /* YMSAlbumPickerViewController.xib in Resources */,
+				CC7DDDA41DDC98E4005B50B0 /* YMSPhotoPickerViewController.xib in Resources */,
+				CC7DDDAD1DDC98E4005B50B0 /* YMSCameraCell.xib in Resources */,
+				CC7DDDA71DDC98E4005B50B0 /* YMSAlbumCell.xib in Resources */,
+				CC7DDDB31DDC98E4005B50B0 /* YMSSinglePhotoViewController.xib in Resources */,
+				CC7DDDB01DDC98E4005B50B0 /* YMSPhotoCell.xib in Resources */,
+				CC7DDD991DDC98E4005B50B0 /* YMSPhotoPickerAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +662,23 @@
 				51687A231D335D080071643B /* UIViewController+YMSPhotoHelper.m in Sources */,
 				511BC6191D13B33D00738FD4 /* DemoListViewController.swift in Sources */,
 				511BC61C1D13B33D00738FD4 /* DemoPhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7DDD8C1DDC98B6005B50B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7DDDAF1DDC98E4005B50B0 /* YMSPhotoCell.m in Sources */,
+				CC7DDDA31DDC98E4005B50B0 /* YMSPhotoPickerViewController.m in Sources */,
+				CC7DDDA91DDC98E4005B50B0 /* YMSAlbumPickerViewController.m in Sources */,
+				CC7DDDA11DDC98E4005B50B0 /* YMSPhotoPickerTheme.m in Sources */,
+				CC7DDD9F1DDC98E4005B50B0 /* UITableViewCell+YMSConfig.m in Sources */,
+				CC7DDDAC1DDC98E4005B50B0 /* YMSCameraCell.m in Sources */,
+				CC7DDD9B1DDC98E4005B50B0 /* UIViewController+YMSPhotoHelper.m in Sources */,
+				CC7DDD9D1DDC98E4005B50B0 /* UIScrollView+YMSAdditions.m in Sources */,
+				CC7DDDA61DDC98E4005B50B0 /* YMSAlbumCell.m in Sources */,
+				CC7DDDB21DDC98E4005B50B0 /* YMSSinglePhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -797,6 +915,58 @@
 			};
 			name = Release;
 		};
+		CC7DDD961DDC98B6005B50B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YangMingShan/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.YangMingShan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC7DDD971DDC98B6005B50B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YangMingShan/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.YangMingShan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -844,6 +1014,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		CC7DDD981DDC98B6005B50B0 /* Build configuration list for PBXNativeTarget "YangMingShan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7DDD961DDC98B6005B50B0 /* Debug */,
+				CC7DDD971DDC98B6005B50B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
